@@ -14,7 +14,7 @@ Este documento describe los conceptos tras el Cloud Controller Manager y da deta
 
 En la siguiente imagen, se puede ver la arquitectura de un cluster de Kubernetes que no utiliza el Cloud Controller Manager:
 
-![Arquitectura previa a CCM](/images/docs/pre-ccm-arch.png)
+![Arquitectura previa a CCM](../../../../../static/images/docs/pre-ccm-arch.png)
 
 {{% /capture %}}
 
@@ -31,7 +31,7 @@ En el diagrama anterior, Kubernetes y el proveedor de servicios en la nube está
 
 El CCM consolida toda la lógica dependiente de la nube de estos tres componentes para crear un punto de integración único. La nueva arquitectura con CCM se muestra a continuación:
 
-![Arquitectura CCM](/images/docs/post-ccm-arch.png)
+![Arquitectura CCM](../../../../../static/images/docs/post-ccm-arch.png)
 
 ## Componentes del CCM
 

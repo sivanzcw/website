@@ -14,7 +14,7 @@ weight: 30
 
 다음은 클라우드 컨트롤러 매니저가 존재하지 않는 형태의 쿠버네티스 클러스터 아키텍처이다.
 
-![Pre CCM Kube Arch](/images/docs/pre-ccm-arch.png)
+![Pre CCM Kube Arch](../../../../../static/images/docs/pre-ccm-arch.png)
 
 {{% /capture %}}
 
@@ -31,7 +31,7 @@ weight: 30
 
 CCM은 앞의 세 컴포넌트가 가진 클라우드 의존적인 로직을 한 곳에 모아서 클라우드 통합을 위한 단일 포인트를 만들었다. CCM을 활용한 새로운 아키텍처는 다음과 같다.
 
-![CCM Kube Arch](/images/docs/post-ccm-arch.png)
+![CCM Kube Arch](../../../../../static/images/docs/post-ccm-arch.png)
 
 ## CCM의 컴포넌트
 

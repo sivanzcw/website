@@ -14,7 +14,7 @@ Questo documento discute i concetti alla base del gestore del controller cloud e
 
 Ecco l'architettura di un cluster Kubernetes senza il gestore del controller cloud:
 
-![Pre CCM Kube Arch](/images/docs/pre-ccm-arch.png)
+![Pre CCM Kube Arch](../../../../../static/images/docs/pre-ccm-arch.png)
 
 {{% /capture %}}
 
@@ -32,7 +32,7 @@ Nel diagramma precedente, Kubernetes e il provider cloud sono integrati attraver
 
 CCM consolida tutta la logica dipendente dal cloud dai tre componenti precedenti per creare un singolo punto di integrazione con il cloud. La nuova architettura con il CCM si presenta così:
 
-![CCM Kube Arch](/images/docs/post-ccm-arch.png)
+![CCM Kube Arch](../../../../../static/images/docs/post-ccm-arch.png)
 
 ## Components of the CCM
 

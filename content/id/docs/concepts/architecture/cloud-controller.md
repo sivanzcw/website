@@ -13,7 +13,7 @@ Dokumen ini mendiskusikan konsep di balik CCM dan mendetail fungsi-fungsinya.
 
 Berikut adalah arsitektur sebuah kluster Kubernetes tanpa CCM:
 
-![Pre CCM Kube Arch](/images/docs/pre-ccm-arch.png)
+![Pre CCM Kube Arch](../../../../../static/images/docs/pre-ccm-arch.png)
 
 {{% /capture %}}
 
@@ -30,7 +30,7 @@ Pada diagram sebelumnya, Kubernetes dan penyedia layanan _cloud_ diintegrasikan 
 
 CCM menggabungkan semua logika yang bergantung pada _cloud_ dari dalam tiga komponen tersebut ke dalam sebuah titik integrasi dengan _cloud_. Arsitektur baru di dalam model CCM adalah sebagai berikut:
 
-![CCM Kube Arch](/images/docs/post-ccm-arch.png)
+![CCM Kube Arch](../../../../../static/images/docs/post-ccm-arch.png)
 
 ## Komponen-komponen CCM
 

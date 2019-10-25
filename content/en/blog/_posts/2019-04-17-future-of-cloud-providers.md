@@ -20,11 +20,11 @@ In order to gain a forward looking perspective to our work, I think it’s impor
 
 In-tree cloud providers are the providers we develop & release in the [main Kubernetes repository](https://github.com/kubernetes/kubernetes/tree/master/pkg/cloudprovider/providers). This results in embedding the knowledge and context of each cloud provider into most of the Kubernetes components. This enables more native integrations such as the kubelet requesting information about itself via a metadata service from the cloud provider.
 
-<center>{{<figure width="600" src="/images/docs/pre-ccm-arch.png" caption="In-Tree Cloud Provider Architecture (source: kubernetes.io)">}}</center>
+<center>{{<figure width="600" src="../../../../../static/images/docs/pre-ccm-arch.png" caption="In-Tree Cloud Provider Architecture (source: kubernetes.io)">}}</center>
 
 Out-of-tree cloud providers are providers that can be developed, built, and released independent of Kubernetes core. This requires deploying a new component called the cloud-controller-manager which is responsible for running all the cloud specific controllers that were previously run in the kube-controller-manager.
 
-<center>{{<figure width="600" src="/images/docs/post-ccm-arch.png" caption="Out-of-Tree Cloud Provider Architecture (source: kubernetes.io)">}}</center>
+<center>{{<figure width="600" src="../../../../../static/images/docs/post-ccm-arch.png" caption="Out-of-Tree Cloud Provider Architecture (source: kubernetes.io)">}}</center>
 
 
 When cloud provider integrations were initially developed, they were developed natively (in-tree). We integrated each provider close to the core of Kubernetes and within the monolithic repository that is k8s.io/kubernetes today. As Kubernetes became more ubiquitous and more infrastructure providers wanted to support Kubernetes natively, we realized that this model was not going to scale. Each provider brings along a large set of dependencies which increases potential vulnerabilities in our code base and significantly increases the binary size of each component. In addition to this, more of the Kubernetes release notes started to focus on provider specific changes rather than core changes that impacted all Kubernetes users.

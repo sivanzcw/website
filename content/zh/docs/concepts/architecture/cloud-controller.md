@@ -40,10 +40,10 @@ Here's the architecture of a Kubernetes cluster without the cloud controller man
 这是没有云控制器管理器的 Kubernetes 集群的架构：
 
 <!--
-![Pre CCM Kube Arch](/images/docs/pre-ccm-arch.png)
+![Pre CCM Kube Arch](../../../../../static/images/docs/pre-ccm-arch.png)
 -->
 
-![没有云控制器管理器的 Kubernetes 架构](/images/docs/pre-ccm-arch.png)
+![没有云控制器管理器的 Kubernetes 架构](../../../../../static/images/docs/pre-ccm-arch.png)
 
 {{% /capture %}}
 
@@ -80,10 +80,10 @@ The CCM consolidates all of the cloud-dependent logic from the preceding three c
 CCM 整合了前三个组件中的所有依赖于云的逻辑，以创建与云的单一集成点。CCM 的新架构如下所示：
 
 <!--
-![CCM Kube Arch](/images/docs/post-ccm-arch.png)
+![CCM Kube Arch](../../../../../static/images/docs/post-ccm-arch.png)
 -->
 
-![含有云控制器管理器的 Kubernetes 架构](/images/docs/post-ccm-arch.png)
+![含有云控制器管理器的 Kubernetes 架构](../../../../../static/images/docs/post-ccm-arch.png)
 
 <!--
 ## Components of the CCM

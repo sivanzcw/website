@@ -14,7 +14,7 @@ This document discusses the concepts behind the cloud controller manager and giv
 
 Here's the architecture of a Kubernetes cluster without the cloud controller manager:
 
-![Pre CCM Kube Arch](/images/docs/pre-ccm-arch.png)
+![Pre CCM Kube Arch](../../../../../static/images/docs/pre-ccm-arch.png)
 
 {{% /capture %}}
 
@@ -31,7 +31,7 @@ In the preceding diagram, Kubernetes and the cloud provider are integrated throu
 
 The CCM consolidates all of the cloud-dependent logic from the preceding three components to create a single point of integration with the cloud. The new architecture with the CCM looks like this:
 
-![CCM Kube Arch](/images/docs/post-ccm-arch.png)
+![CCM Kube Arch](../../../../../static/images/docs/post-ccm-arch.png)
 
 ## Components of the CCM
 
